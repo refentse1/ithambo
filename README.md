@@ -1,2 +1,2 @@
 # ithambo
-A platform for shoppiong at the comfort of your home
+A platform for shopping at the comfort of your home
