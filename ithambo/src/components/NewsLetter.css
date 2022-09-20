@@ -1,0 +1,40 @@
+.news-container{
+    margin: 35px 30px 20px 30px;
+}
+
+.heading-title{
+    font-size: 4.7916666667vw;
+    /* text-indent: 15.8333333333vw; */
+    letter-spacing: -.03em;
+    line-height: 1;
+}
+
+input{
+    font-size: 20px;
+    letter-spacing: -.03em;
+    color: black;
+    font-weight: 600px;
+    border: none;
+    height: 70px;
+    width: 60vw;
+    border-bottom: solid 3px black;
+}
+
+input[type= "email"]{
+    font-size: 40px;
+}
+
+@media (max-width: 1024px){
+    .heading-title{
+        font-size: max(54px,5.2734375vw);
+        /* text-indent: max(66px,23.4375vw); */
+    }
+}
+
+@media (max-width: 767px){
+    .heading-title{
+        font-size: max(36px,9.6vw);
+        /**text-indent: max(66px,17.6vw);**/
+        padding-top: max(42px,11.2vw);
+    }
+}
