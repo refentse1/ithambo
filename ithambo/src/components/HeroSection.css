@@ -1,0 +1,51 @@
+.hero{
+    height: 60vh;
+    width: 95vw;
+    margin: 20px auto;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    background-image: linear-gradient(to right top, #00a9a5, #009fb8, #0092c5, #1b83c8, #616fbe);
+}
+
+.hero-block{
+    margin: 60px auto;
+}
+
+ion-button{
+    --background: #00A9A5;
+    --padding: 15px;
+    --font-weight: 600px;
+    --height: 60px;
+}
+
+.h1{
+    font-size: 14.1875vw;
+    line-height: .7987616099;
+    font-weight: 700;
+    letter-spacing: -.05em;
+    white-space: nowrap;
+    opacity: .9;
+    text-align: center;
+}
+
+.anchor-button{
+    font-size: 4.5vw;
+    font-weight: 600;
+    color: white;
+}
+
+@media (max-width: 767px){
+    .h1 {
+        white-space: normal;
+        font-size: max(80px,18.6666666667vw);
+        text-align: left;
+        margin-bottom: max(24px,6.4vw);
+    }
+
+    .anchor-button{
+        font-size: 35px;
+    }
+}
+

@@ -1,0 +1,74 @@
+ion-card{
+    max-width: 300px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+ion-card-title{
+        font-size: 2.8vw;
+        line-height: 1.14;
+        letter-spacing: -.03em;
+        font-weight: 500;
+        display: inline;
+        background-repeat: no-repeat;
+        background-position: 100% 90%;
+        background-size: 0 max(3px,0.15625vw);
+        transition: background-size .6s cubic-bezier(.38,.005,.215,1);
+}
+
+.card-price{
+        text-align: center;
+        letter-spacing: -.03em;
+        font-size: 1.6vw;
+        line-height: 1.3;
+        font-weight: 700;
+        border-radius: 0.8333333333vw;
+        padding: 10px;
+        background-color: #00A9A5;
+        width: 130px;
+        color: white;
+        z-index: 100;
+        float: left;
+        position: absolute;
+        margin: 10px;
+}
+
+.product-img{
+    border-radius: 15px;
+}
+
+.product-img img{
+    object-fit: fill;
+    border-radius: 15px;
+    position: relative;
+    height: 300px;
+}
+
+.click-btn{
+    background-color: transparent;
+    border: solid 3px black;
+    border-radius: 15px;
+    margin: auto;
+    display: block;
+    font-size: 30px;
+    font-weight: 600px;
+    padding: 8px;
+}
+
+@media (max-width: 767px){
+    ion-card-title {
+        font-size: max(20px,5.3333333333vw);
+        background-size: 0 max(1px,0.2666666667vw);
+    }
+
+    .card-price{
+        font-size: 1rem;
+        border-radius: max(15px,4vw);
+        padding: max(8px,2.1333333333vw) max(16px,4.2666666667vw);
+    }
+
+    .click-btn{
+        font-size: 25px;
+    }
+}
+

@@ -1,0 +1,7 @@
+{
+  "name": "ithambo",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

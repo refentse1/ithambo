@@ -1,0 +1,14 @@
+.heading-title {
+    font-size: 4.7916666667vw;
+    letter-spacing: -.03em;
+    line-height: 1;
+    margin: 50px 30px 50px 30px;
+}
+
+
+@media (max-width: 767px){
+    .heading-title {
+        font-size: max(36px,9.6vw);
+        padding-top: max(42px,11.2vw);
+    }
+}
